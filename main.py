@@ -33,7 +33,7 @@ def set_status(message: str, emoji: str = None, expires_at: str = None):
     )
     return resp.json()
 
-# No expiration
+
 
 
 # Expires in 4 hours
