@@ -36,6 +36,6 @@ def set_status(message: str, emoji: str = None, expires_at: str = None):
 
 
 
-# Expires in 4 hours
+# Expires in 2 hours
 expires = (datetime.now(timezone.utc) + timedelta(hours=2)).isoformat()
 print(set_status("Coding", "", expires))
